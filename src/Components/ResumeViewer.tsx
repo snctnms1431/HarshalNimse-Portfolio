@@ -3,7 +3,7 @@ import { IconArrowBigDownLineFilled } from "@tabler/icons-react";
 import { Document, Page } from "react-pdf";
 import { Info } from "../User";
 
-const resumeUrl = `${process.env.PUBLIC_URL}/Resume.pdf`;
+const resumeUrl = "/Resume.pdf";
 
 const ResumeViewer = (props: any) => {
     const btn=useMatches({
